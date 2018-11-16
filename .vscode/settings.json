@@ -1,3 +1,9 @@
 {
-    "python.pythonPath": "~/testdriven-app/services/users/env/bin/python"
+    "python.pythonPath": "~/testdriven-app/services/users/env/bin/python",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/**": true,
+        "**/env/**": true
+    }
 }
