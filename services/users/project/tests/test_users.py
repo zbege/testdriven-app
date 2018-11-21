@@ -191,5 +191,6 @@ class TestUserService(BaseTestCase):
             self.assertIn('Invalid payload.', data['message'])
             self.assertIn('fail', data['status'])
 
+
 if __name__ == '__main__':
     unittest.main()
