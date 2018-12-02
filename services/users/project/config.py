@@ -13,7 +13,7 @@ class BaseConfig:
     DEBUG_TB_ENABLED = False
     DEBUG_TB_INTERCEPT_REDIRECTS = False
     BCRYPT_LOG_ROUNDS = 13
-    TOKEN_EXPIRATION_DAYS = 30  
+    TOKEN_EXPIRATION_DAYS = 30
     TOKEN_EXPIRATION_SECONDS = 0
 
 
@@ -31,6 +31,7 @@ class TestingConfig(BaseConfig):
     BCRYPT_LOG_ROUNDS = 4
     TOKEN_EXPIRATION_DAYS = 0
     TOKEN_EXPIRATION_SECONDS = 3
+
 
 class ProductionConfig(BaseConfig):
     """Production configuration"""
